@@ -1,1262 +1,172 @@
 window.OwList = [
-    [
-        "bakken",
-        "bakte",
-        "bakten",
-        "gebakken",
-        "bake, fry, cook"
-    ],
-    [
-        "bannen",
-        "bande",
-        "banden",
-        "gebannen",
-        "ban, exile, discard"
-    ],
-    [
-        "barsten",
-        "barstte",
-        "barstten",
-        "gebarsten",
-        "burst, crack, break"
-    ],
-    [
-        "bederven",
-        "bedierf",
-        "bedierven",
-        "bedorven",
-        "spoil, rot, injure"
-    ],
-    [
-        "bedriegen",
-        "bedroog",
-        "bedrogen",
-        "bedrogen",
-        "deceive, cheat, betray"
-    ],
-    [
-        "beginnen",
-        "begon",
-        "begonnen",
-        "begonnen",
-        "begin, start, commence"
-    ],
-    [
-        "behangen",
-        "behangde",
-        "behangden",
-        "behangen",
-        "decorate, hang, paper"
-    ],
-    [
-        "bergen",
-        "borg",
-        "borgen",
-        "geborgen",
-        "rescue, save, stow"
-    ],
-    [
-        "bevelen",
-        "beval",
-        "bevalen",
-        "bevolen",
-        "order, command, tell"
-    ],
-    [
-        "bezwijken",
-        "bezweek",
-        "bezweken",
-        "bezweken",
-        "succumb"
-    ],
-    [
-        "bidden",
-        "bad",
-        "baden",
-        "gebeden",
-        "pray, beseech, beg"
-    ],
-    [
-        "bieden",
-        "bood",
-        "boden",
-        "geboden",
-        "bid, offer, propose"
-    ],
-    [
-        "bijten",
-        "beet",
-        "beten",
-        "gebeten",
-        "bite, corrode, sting"
-    ],
-    [
-        "binden",
-        "bond",
-        "bonden",
-        "gebonden",
-        "tie, bind, tether"
-    ],
-    [
-        "blazen",
-        "blies",
-        "bliezen",
-        "geblazen",
-        "blow, wind, puff"
-    ],
-    [
-        "blijken",
-        "bleek",
-        "bleken",
-        "gebleken",
-        "prove, appear, emerge"
-    ],
-    [
-        "blijven",
-        "bleef",
-        "bleven",
-        "gebleven",
-        "stay, remain, keep"
-    ],
-    [
-        "blinken",
-        "blonk",
-        "blonken",
-        "geblonken",
-        "shine, glisten, glitter"
-    ],
-    [
-        "braden",
-        "braadde",
-        "braadden",
-        "gebraden",
-        "roast, fry, bake"
-    ],
-    [
-        "breken",
-        "brak",
-        "braken",
-        "gebroken",
-        "break, refract, bust"
-    ],
-    [
-        "brengen",
-        "bracht",
-        "brachten",
-        "gebracht",
-        "bring, apply, carry"
-    ],
-    [
-        "brouwen",
-        "brouwde",
-        "brouwden",
-        "gebrouwen",
-        "brew"
-    ],
-    [
-        "buigen",
-        "boog",
-        "bogen",
-        "gebogen",
-        "bend, bow, flex"
-    ],
-    [
-        "denken",
-        "dacht",
-        "dachten",
-        "gedacht",
-        "think, believe, make"
-    ],
-    [
-        "dingen naar",
-        "dong naar",
-        "dongen naar",
-        "gedongen naar",
-        "aspire, hope for"
-    ],
-    [
-        "dragen",
-        "droeg",
-        "droegen",
-        "gedragen",
-        "carry, bear, wear"
-    ],
-    [
-        "drijven",
-        "dreef",
-        "dreven",
-        "gedreven",
-        "float, drive, push"
-    ],
-    [
-        "dringen",
-        "drong",
-        "drongen",
-        "gedrongen",
-        "push, squeeze, thrust"
-    ],
-    [
-        "drinken",
-        "dronk",
-        "dronken",
-        "gedronken",
-        "drink"
-    ],
-    [
-        "druipen",
-        "droop",
-        "dropen",
-        "gedropen",
-        "drip"
-    ],
-    [
-        "duiken",
-        "dook",
-        "doken",
-        "gedoken",
-        "dive, plunge, duck"
-    ],
-    [
-        "dwingen",
-        "dwong",
-        "dwongen",
-        "gedwongen",
-        "compel, force, coerce"
-    ],
-    [
-        "eten",
-        "at",
-        "aten",
-        "gegeten",
-        "eat, food, meal"
-    ],
-    [
-        "fluiten",
-        "floot",
-        "floten",
-        "gefloten",
-        "whistle, hiss, flute"
-    ],
-    [
-        "gelden",
-        "gold",
-        "golden",
-        "gegolden",
-        "consider, deem, pertain"
-    ],
-    [
-        "genezen",
-        "genas",
-        "genazen",
-        "genezen",
-        "cure, heal, recover"
-    ],
-    [
-        "genieten",
-        "genoot",
-        "genoten",
-        "genoten",
-        "enjoy, have, receive"
-    ],
-    [
-        "geven",
-        "gaf",
-        "gaven",
-        "gegeven",
-        "give, cast, donate"
-    ],
-    [
-        "gieten",
-        "goot",
-        "goten",
-        "gegoten",
-        "pour, irrigate, cast"
-    ],
-    [
-        "glijden",
-        "gleed",
-        "gleden",
-        "gegleden",
-        "slide, glide, slip"
-    ],
-    [
-        "glimmen",
-        "glom",
-        "glommen",
-        "geglommen",
-        "luster, sheen, shimmer"
-    ],
-    [
-        "graven",
-        "groef",
-        "groeven",
-        "gegraven",
-        "dig, spade, drill"
-    ],
-    [
-        "grijpen",
-        "greep",
-        "grepen",
-        "gegrepen",
-        "seize, grab, grasp"
-    ],
-    [
-        "hangen",
-        "hing",
-        "hingen",
-        "gehangen",
-        "hang, depend, droop"
-    ],
-    [
-        "heffen",
-        "hief",
-        "hieven",
-        "geheven",
-        "raise, lever, lift"
-    ],
-    [
-        "helpen",
-        "hielp",
-        "hielpen",
-        "geholpen",
-        "help, aid, assist"
-    ],
-    [
-        "heten",
-        "heette",
-        "heetten",
-        "geheten",
-        "call, be called, name"
-    ],
-    [
-        "hijsen",
-        "hees",
-        "hesen",
-        "gehesen",
-        "hoist, heft, hoist up"
-    ],
-    [
-        "hoeven",
-        "hoefde",
-        "hoefden",
-        "gehoeven",
-        "need, require, brauchen"
-    ],
-    [
-        "houden",
-        "hield",
-        "hielden",
-        "gehouden",
-        "keep, hold, judge"
-    ],
-    [
-        "houwen",
-        "houwde",
-        "houwden",
-        "gehouwen",
-        "hit, strike, hew"
-    ],
-    [
-        "jagen",
-        "joeg",
-        "joegen",
-        "gejaagd",
-        "hunt, chase, grub"
-    ],
-    [
-        "kiezen",
-        "koos",
-        "kozen",
-        "gekozen",
-        "choose, pick, elect"
-    ],
-    [
-        "kijken",
-        "keek",
-        "keken",
-        "gekeken",
-        "look, watch, view"
-    ],
-    [
-        "klimmen",
-        "klom",
-        "klommen",
-        "geklommen",
-        "climb, ascend, rise"
-    ],
-    [
-        "klinken",
-        "klonk",
-        "klonken",
-        "geklonken",
-        "sound, ring, rivet"
-    ],
-    [
-        "kluiven",
-        "kloof",
-        "kloven",
-        "gekloven",
-        "gnaw, nibble"
-    ],
-    [
-        "knijpen",
-        "kneep",
-        "knepen",
-        "geknepen",
-        "pinch, squeeze, tweak"
-    ],
-    [
-        "kopen",
-        "kocht",
-        "kochten",
-        "gekocht",
-        "buy, purchase, get"
-    ],
-    [
-        "krijgen",
-        "kreeg",
-        "kregen",
-        "gekregen",
-        "get, receive, have"
-    ],
-    [
-        "krimpen",
-        "kromp",
-        "krompen",
-        "gekrompen",
-        "shrink, compress, shrunken"
-    ],
-    [
-        "kruipen",
-        "kroop",
-        "kropen",
-        "gekropen",
-        "creep, crawl, grovel"
-    ],
-    [
-        "lachen",
-        "lachte",
-        "lachten",
-        "gelachen",
-        "laugh, laughter, smile"
-    ],
-    [
-        "laden",
-        "laadde",
-        "laadden",
-        "geladen",
-        "load, charge, burden"
-    ],
-    [
-        "laten",
-        "liet",
-        "lieten",
-        "gelaten",
-        "let, leave, make"
-    ],
-    [
-        "lezen",
-        "las",
-        "lazen",
-        "gelezen",
-        "read, reading, skim"
-    ],
-    [
-        "liegen",
-        "loog",
-        "logen",
-        "gelogen",
-        "lie, tell a lie, fib"
-    ],
-    [
-        "liggen",
-        "lag",
-        "lagen",
-        "gelegen",
-        "lie, sit, stand"
-    ],
-    [
-        "lijden",
-        "leed",
-        "leden",
-        "geleden",
-        "suffer, anguish"
-    ],
-    [
-        "lijken",
-        "leek",
-        "leken",
-        "geleken",
-        "seem, appear, resemble"
-    ],
-    [
-        "lopen",
-        "liep",
-        "liepen",
-        "gelopen",
-        "walk, run, go"
-    ],
-    [
-        "malen",
-        "maalde",
-        "maalden",
-        "gemalen",
-        "grind, mill, pulverize"
-    ],
-    [
-        "melken",
-        "molk",
-        "molken",
-        "gemolken",
-        "milk"
-    ],
-    [
-        "meten",
-        "mat",
-        "maten",
-        "gemeten",
-        "measure, gauge, compute"
-    ],
-    [
-        "mijden",
-        "meed",
-        "meden",
-        "gemeden",
-        "avoid, evade, avert"
-    ],
-    [
-        "moeten",
-        "moest",
-        "moesten",
-        "gemoeten",
-        "must"
-    ],
-    [
-        "nemen",
-        "nam",
-        "namen",
-        "genomen",
-        "take, get, consider"
-    ],
-    [
-        "nijgen",
-        "neeg",
-        "negen",
-        "genegen",
-        "curtsy, curtsey, bow"
-    ],
-    [
-        "ontginnen",
-        "ontgon",
-        "ontgonnen",
-        "ontgonnen",
-        "mine, cultivate, develop"
-    ],
-    [
-        "ontluiken",
-        "ontlook",
-        "ontloken",
-        "ontloken",
-        "sprout, bud, arise"
-    ],
-    [
-        "pluizen",
-        "ploos",
-        "plozen",
-        "geplozen",
-        "pick, pill"
-    ],
-    [
-        "prijzen",
-        "prees",
-        "prezen",
-        "geprezen",
-        "praise, laud, commend"
-    ],
-    [
-        "raden",
-        "raadde",
-        "raadden",
-        "geraden",
-        "guess, advise, imagine"
-    ],
-    [
-        "verraden",
-        "verried",
-        "verrieden",
-        "verraden",
-        "betray, traitor, burn"
-    ],
-    [
-        "rijden",
-        "reed",
-        "reden",
-        "gereden",
-        "ride, drive, travel"
-    ],
-    [
-        "rijgen",
-        "reeg",
-        "regen",
-        "geregen",
-        "string, thread, catenate"
-    ],
-    [
-        "rijten",
-        "reet",
-        "reten",
-        "gereten",
-        "rip, tear"
-    ],
-    [
-        "rijzen",
-        "rees",
-        "rezen",
-        "gerezen",
-        "rise, ascend, arise"
-    ],
-    [
-        "roepen",
-        "riep",
-        "riepen",
-        "geroepen",
-        "call, shout, cry"
-    ],
-    [
-        "ruiken",
-        "rook",
-        "roken",
-        "geroken",
-        "smell, reek, scent"
-    ],
-    [
-        "scheiden",
-        "scheidde",
-        "scheidden",
-        "gescheiden",
-        "separate, dissociate, divide"
-    ],
-    [
-        "schelden",
-        "schold",
-        "scholden",
-        "gescholden",
-        "swear, scold, scuffle"
-    ],
-    [
-        "schenden",
-        "schond",
-        "schonden",
-        "geschonden",
-        "violate, deface, profane"
-    ],
-    [
-        "schenken",
-        "schonk",
-        "schonken",
-        "geschonken",
-        "pour, give, donate"
-    ],
-    [
-        "scheppen",
-        "schiep",
-        "schiepen",
-        "geschapen",
-        "create, shovel, produce"
-    ],
-    [
-        "scheren",
-        "scheerde",
-        "scheerden",
-        "geschoren",
-        "shave, shear, skim"
-    ],
-    [
-        "schieten",
-        "schoot",
-        "schoten",
-        "geschoten",
-        "shoot, fire, boot"
-    ],
-    [
-        "schijnen",
-        "scheen",
-        "schenen",
-        "geschenen",
-        "seem, shine, appear"
-    ],
-    [
-        "schijten",
-        "scheet",
-        "scheten",
-        "gescheten",
-        "shit, defecate, crap"
-    ],
-    [
-        "schrijven",
-        "schreef",
-        "schreven",
-        "geschreven",
-        "write"
-    ],
-    [
-        "schrikken",
-        "schrok",
-        "schrokken",
-        "geschrokken",
-        "scare, startle, harrow"
-    ],
-    [
-        "schuilen",
-        "school",
-        "scholen",
-        "gescholen",
-        "lurk, shelter, hide"
-    ],
-    [
-        "schuiven",
-        "schoof",
-        "schoven",
-        "geschoven",
-        "shove, slide, slip"
-    ],
-    [
-        "slapen",
-        "sliep",
-        "sliepen",
-        "geslapen",
-        "sleep"
-    ],
-    [
-        "slijpen",
-        "sleep",
-        "slepen",
-        "geslepen",
-        "sharpen, cut, polish"
-    ],
-    [
-        "slijten",
-        "sleet",
-        "sleten",
-        "gesleten",
-        "use up, wear away, wear off"
-    ],
-    [
-        "slinken",
-        "slonk",
-        "slonken",
-        "geslonken",
-        "shrink, shrunken, decrease"
-    ],
-    [
-        "sluipen",
-        "sloop",
-        "slopen",
-        "geslopen",
-        "steal, sneak, slink"
-    ],
-    [
-        "sluiten",
-        "sloot",
-        "sloten",
-        "gesloten",
-        "close, shut, lock"
-    ],
-    [
-        "smelten",
-        "smolt",
-        "smolten",
-        "gesmolten",
-        "melt, fuse"
-    ],
-    [
-        "smijten",
-        "smeet",
-        "smeten",
-        "gesmeten",
-        "throw, fling, cast"
-    ],
-    [
-        "snijden",
-        "sneed",
-        "sneden",
-        "gesneden",
-        "cut, slice"
-    ],
-    [
-        "snuiten",
-        "snoot",
-        "snoten",
-        "gesnoten",
-        "blow one's nose, snuff"
-    ],
-    [
-        "snuiven",
-        "snoof",
-        "snoven",
-        "gesnoven",
-        "snort, whiff, snuffle"
-    ],
-    [
-        "spannen",
-        "spande",
-        "spanden",
-        "gespannen",
-        "tense, strech, wind up"
-    ],
-    [
-        "spijten",
-        "speet",
-        "speten",
-        "gespeten",
-        "regret, sorry, be sorry"
-    ],
-    [
-        "spinnen",
-        "spon",
-        "sponnen",
-        "gesponnen",
-        "spin, purr, to purr"
-    ],
-    [
-        "splijten",
-        "spleet",
-        "spleten",
-        "gespleten",
-        "split, cleavage, shed"
-    ],
-    [
-        "spreken",
-        "sprak",
-        "spraken",
-        "gesproken",
-        "speak, talk, speech"
-    ],
-    [
-        "springen",
-        "sprong",
-        "sprongen",
-        "gesprongen",
-        "jump, leap, spring"
-    ],
-    [
-        "spruiten",
-        "sproot",
-        "sproten",
-        "gesproten",
-        "sprout, bud, arise"
-    ],
-    [
-        "spuiten",
-        "spoot",
-        "spoten",
-        "gespoten",
-        "squirt, blow, inject"
-    ],
-    [
-        "steken",
-        "stak",
-        "staken",
-        "gestoken",
-        "stab, sting, pick"
-    ],
-    [
-        "stelen",
-        "stal",
-        "stalen",
-        "gestolen",
-        "steal, boost"
-    ],
-    [
-        "sterven",
-        "stierf",
-        "stierven",
-        "gestorven",
-        "die, expire"
-    ],
-    [
-        "stijgen",
-        "steeg",
-        "stegen",
-        "gestegen",
-        "rise, ascend, climb"
-    ],
-    [
-        "stijven",
-        "steef",
-        "steven",
-        "gesteven",
-        "provide, supply, encourage"
-    ],
-    [
-        "stinken",
-        "stonk",
-        "stonken",
-        "gestonken",
-        "stink, reek, smell"
-    ],
-    [
-        "stoten",
-        "stootte",
-        "stootten",
-        "gestoten",
-        "push, thrust, stub"
-    ],
-    [
-        "strijden",
-        "streed",
-        "streden",
-        "gestreden",
-        "fight, struggle, battle"
-    ],
-    [
-        "strijken",
-        "streek",
-        "streken",
-        "gestreken",
-        "iron, lower"
-    ],
-    [
-        "stuiven",
-        "stoof",
-        "stoven",
-        "gestoven",
-        "gush, spurt"
-    ],
-    [
-        "treden",
-        "trad",
-        "traden",
-        "getreden",
-        "step, tread, pace"
-    ],
-    [
-        "treffen",
-        "trof",
-        "troffen",
-        "getroffen",
-        "hit, encounter, meet"
-    ],
-    [
-        "trekken",
-        "trok",
-        "trokken",
-        "getrokken",
-        "pull, draw, drag"
-    ],
-    [
-        "vallen",
-        "viel",
-        "vielen",
-        "gevallen",
-        "fall, drop, down"
-    ],
-    [
-        "vangen",
-        "ving",
-        "vingen",
-        "gevangen",
-        "catch, trap, capture"
-    ],
-    [
-        "varen",
-        "voer",
-        "voeren",
-        "gevaren",
-        "sail, navigate"
-    ],
-    [
-        "vechten",
-        "vocht",
-        "vochten",
-        "gevochten",
-        "fight, struggle, battle"
-    ],
-    [
-        "verdrieten",
-        "verdroot",
-        "verdroten",
-        "verdroten",
-        "vex, worry, annoy"
-    ],
-    [
-        "verdwijnen",
-        "verdween",
-        "verdwenen",
-        "verdwenen",
-        "disappear, vanish, go"
-    ],
-    [
-        "vergeten",
-        "vergat",
-        "vergaten",
-        "vergeten",
-        "forget"
-    ],
-    [
-        "verliezen",
-        "verloor",
-        "verloren",
-        "verloren",
-        "lose"
-    ],
-    [
-        "vinden",
-        "vond",
-        "vonden",
-        "gevonden",
-        "find, think"
-    ],
-    [
-        "vlechten",
-        "vlocht",
-        "vlochten",
-        "gevlochten",
-        "plait, braid, wreathe"
-    ],
-    [
-        "vliegen",
-        "vloog",
-        "vlogen",
-        "gevlogen",
-        "fly"
-    ],
-    [
-        "vouwen",
-        "vouwde",
-        "vouwden",
-        "gevouwen",
-        "fold, crease"
-    ],
-    [
-        "vragen",
-        "vroeg",
-        "vroegen",
-        "gevraagd",
-        "ask, inquire, request"
-    ],
-    [
-        "vreten",
-        "vrat",
-        "vraten",
-        "gevreten",
-        "eat, devour, grub"
-    ],
-    [
-        "vriezen",
-        "vroor",
-        "vroren",
-        "gevroren",
-        "freeze, to freeze"
-    ],
-    [
-        "vrijen",
-        "vree",
-        "vreeën",
-        "gevreeën",
-        "woo, court, pet"
-    ],
-    [
-        "wassen",
-        "waste",
-        "wasten",
-        "gewassen",
-        "wash, wax, grow"
-    ],
-    [
-        "wegen",
-        "woog",
-        "wogen",
-        "gewogen",
-        "weigh"
-    ],
-    [
-        "werpen",
-        "wierp",
-        "wierpen",
-        "geworpen",
-        "throw, cast"
-    ],
-    [
-        "werven",
-        "wierf",
-        "wierven",
-        "geworven",
-        "recruit, enlist"
-    ],
-    [
-        "weten",
-        "wist",
-        "wisten",
-        "geweten",
-        "know"
-    ],
-    [
-        "weven",
-        "weefde",
-        "weefden",
-        "geweven",
-        "weave"
-    ],
-    [
-        "wijken",
-        "week",
-        "weken",
-        "geweken",
-        "yield, disappear, stop"
-    ],
-    [
-        "wijten",
-        "weet",
-        "weten",
-        "geweten",
-        "blame, ascribe, hold against"
-    ],
-    [
-        "wijzen",
-        "wees",
-        "wezen",
-        "gewezen",
-        "show, indicate, point"
-    ],
-    [
-        "winden",
-        "wond",
-        "wonden",
-        "gewonden",
-        "wind, roll"
-    ],
-    [
-        "winnen",
-        "won",
-        "wonnen",
-        "gewonnen",
-        "win, gain, earn"
-    ],
-    [
-        "worden",
-        "werd",
-        "werden",
-        "geworden",
-        "become, get, be"
-    ],
-    [
-        "wrijven",
-        "wreef",
-        "wreven",
-        "gewreven",
-        "rub, polish, gall"
-    ],
-    [
-        "wringen",
-        "wrong",
-        "wrongen",
-        "gewrongen",
-        "wring, twist, squirm"
-    ],
-    [
-        "zeggen",
-        "zei",
-        "zeiden",
-        "gezegd",
-        "say, tell"
-    ],
-    [
-        "zenden",
-        "zond",
-        "zonden",
-        "gezonden",
-        "send, transmit, dispatch"
-    ],
-    [
-        "zingen",
-        "zong",
-        "zongen",
-        "gezongen",
-        "sing"
-    ],
-    [
-        "zinken",
-        "zonk",
-        "zonken",
-        "gezonken",
-        "sink"
-    ],
-    [
-        "zinnen",
-        "zon",
-        "zonnen",
-        "gezonnen",
-        "please, meditate"
-    ],
-    [
-        "zitten",
-        "zat",
-        "zaten",
-        "gezeten",
-        "sit, be, do"
-    ],
-    [
-        "zoeken",
-        "zocht",
-        "zochten",
-        "gezocht",
-        "search, seek, look for"
-    ],
-    [
-        "zuigen",
-        "zoog",
-        "zogen",
-        "gezogen",
-        "suck, hoover"
-    ],
-    [
-        "zuipen",
-        "zoop",
-        "zopen",
-        "gezopen",
-        "down, drink, swig"
-    ],
-    [
-        "zwelgen",
-        "zwolg",
-        "zwolgen",
-        "gezwolgen",
-        "wallow, guzzle, revel"
-    ],
-    [
-        "zwellen",
-        "zwol",
-        "zwollen",
-        "gezwollen",
-        "swell, bloat, billow"
-    ],
-    [
-        "zwemmen",
-        "zwom",
-        "zwommen",
-        "gezwommen",
-        "swim, float"
-    ],
-    [
-        "zweren",
-        "zwoer",
-        "zwoeren",
-        "gezworen",
-        "swear, vow, fester"
-    ],
-    [
-        "zwerven",
-        "zwierf",
-        "zwierven",
-        "gezworven",
-        "wander, roam, migrate"
-    ],
-    [
-        "zwijgen",
-        "zweeg",
-        "zwegen",
-        "gezwegen",
-        "be silent"
-    ]
-]
+    ["abide", "abode", "abode", "respecter/se conformer à"],
+    ["arise", "arose", "arisen", "survenir"],
+    ["awake", "awoke", "awoken", "se réveiller"],
+    ["bear", "bore", "borne/born", "porter/supporter/naître"],
+    ["beat", "beat", "beaten", "battre"],
+    ["become", "became", "become", "devenir"],
+    ["beget", "begat/begot", "begotten", "engendrer"],
+    ["begin", "began", "begun", "commencer"],
+    ["bend", "bent", "bent", "plier/se courber"],
+    ["bet", "bet", "bet", "parier"],
+    ["bid", "bid/bade", "bid/bidden", "offrir"],
+    ["bite", "bit", "bitten", "mordre"],
+    ["bleed", "bled", "bled", "saigner"],
+    ["blow", "blew", "blown", "souffler/gonfler"],
+    ["break", "broke", "broken", "casser"],
+    ["bring", "brought", "brought", "apporter"],
+    ["broadcast", "broadcast", "broadcast", "diffuser/émettre"],
+    ["build", "built", "built", "construire"],
+    ["burn", "burnt/burned", "burnt/burned", "brûler"],
+    ["burst", "burst", "burst", "éclater"],
+    ["buy", "bought", "bought", "acheter"],
+    ["can", "could", "could", "pouvoir"],
+    ["cast", "cast", "cast", "jeter/distribuer(rôles)"],
+    ["catch", "caught", "caught", "attraper"],
+    ["chide", "chid/chode", "chid/chidden", "gronder"],
+    ["choose", "chose", "chosen", "choisir"],
+    ["cling", "clung", "clung", "s'accrocher", ""],
+    ["clothe", "clad/clothed", "clad/clothed", "habiller/recouvrir"],
+    ["come", "came", "come", "venir"],
+    ["cost", "cost", "cost", "coûter"],
+    ["creep", "crept", "crept", "ramper"],
+    ["cut", "cut", "cut", "couper"],
+    ["deal", "dealt", "dealt", "distribuer"],
+    ["dig", "dug", "dug", "creuser"],
+    ["dive", "dived", "dived/dove", "plonger"],
+    ["do did", "done", "faire"],
+    ["draw", "drew", "drawn", "dessiner/tirer"],
+    ["dream", "dreamt/dreamed", "dreamt/dreamed", "rêver"],
+    ["drink", "drank", "drunk", "boire"],
+    ["drive", "drove", "driven", "conduire"],
+    ["dwell", "dwelt", "dwelt/dwelled", "habiter"],
+    ["eat", "ate", "eaten", "manger"],
+    ["fall", "fell", "fallen", "tomber"],
+    ["feed", "fed", "fed", "nourrir"],
+    ["feel", "felt", "felt", "se sentir/ressentir"],
+    ["fight", "fought", "fought", "se battre"],
+    ["find", "found", "found", "trouver"],
+    ["flee", "fled", "fled", "s'enfuir"],
+    ["fling", "flung", "flung", "lancer"],
+    ["fly", "flew", "flown", "voler"],
+    ["forbid", "forbade", "forbidden", "interdire"],
+    ["forecast", "forecast", "forecast", "prévoir"],
+    ["foresee", "foresaw", "foreseen", "prévoir/presentir"],
+    ["forget", "forgot", "forgotten/forgot", "oublier"],
+    ["forgive", "forgave", "forgiven", "pardonner"],
+    ["forsake", "forsook", "forsaken", "abandonner"],
+    ["freeze", "froze", "frozen", "geler"],
+    ["get", "got", "gotten/got", "obtenir"],
+    ["give", "gave", "given", "donner"],
+    ["go", "went", "gone", "aller"],
+    ["grind", "ground", "ground", "moudre/opprimer"],
+    ["grow", "grew", "grown", "grandir/pousser"],
+    ["hang", "hung", "hung", "tenir/pendre"],
+    ["have", "had", "had", "avoir"],
+    ["hear", "heard", "heard", "entendre"],
+    ["hide", "hid", "hidden", "cacher"],
+    ["hit", "hit", "hit", "taper/appuyer"],
+    ["hold", "held", "held", "tenir"],
+    ["hurt", "hurt", "hurt", "blesser"],
+    ["keep", "kept", "kept", "garder"],
+    ["kneel", "knelt/knelled", "knelt/kneeled", "s'agenouiller", ""],
+    ["know", "knew", "known", "connaître/savoir"],
+    ["lay", "laid", "laid", "poser"],
+    ["lead", "led", "led", "mener/guider"],
+    ["lean", "leant/leaned", "leant/leaned", "s'incliner/se pencher", ""],
+    ["leap", "leapt/leaped", "leapt/leaped", "sauter/bondir"],
+    ["learn", "learnt", "learnt", "apprendre"],
+    ["leave", "left", "left", "laisser/quitter/partir"],
+    ["lend", "lent", "lent", "prêter"],
+    ["let let", "let", "permettre/louer"],
+    ["lie", "lay", "lain", "s'allonger", ""],
+    ["light", "lit/lighted", "lit/lighted", "allumer"],
+    ["lose", "lost", "lost", "perdre"],
+    ["make", "made", "made", "fabriquer"],
+    ["mean", "meant", "meant", "signifier"],
+    ["meet", "met", "met", "rencontrer"],
+    ["mow", "mowed", "mowed/mown", "tondre"],
+    ["offset", "offset", "offset", "compenser"],
+    ["overcome", "overcame", "overcome", "surmonter"],
+    ["partake", "partook", "partaken", "prendre part à"],
+    ["pay", "paid", "paid", "payer"],
+    ["plead", "pled/pleaded", "pled/pleaded", "supplier/plaider"],
+    ["preset", "preset", "preset", "programmer"],
+    ["prove", "proved", "proven/proved", "prouver"],
+    ["put", "put", "put", "mettre"],
+    ["quit", "quit", "quit", "quitter"],
+    ["read", "read", "read", "lire"],
+    ["relay", "relaid", "relaid", "relayer"],
+    ["rend", "rent", "rent", "déchirer"],
+    ["rid", "rid", "rid", "débarrasser"],
+    ["ring", "rang", "rung", "sonner/téléphoner"],
+    ["rise", "rose", "risen", "lever"],
+    ["run", "ran", "run", "courir"],
+    ["saw", "saw/sawed", "sawn/sawed", "scier"],
+    ["say", "said", "said", "dire"],
+    ["see", "saw", "seen", "voir"],
+    ["seek", "sought", "sought", "chercher"],
+    ["sell", "sold", "sold", "vendre"],
+    ["send", "sent", "sent", "envoyer"],
+    ["set", "set", "set", "fixer"],
+    ["shake", "shook", "shaken", "secouer"],
+    ["shed", "shed", "shed", "répandre/laisser tomber"],
+    ["shine", "shone", "shone", "briller"],
+    ["shoe", "shod", "shod", "chausser"],
+    ["shoot", "shot", "shot", "tirer/fusiller"],
+    ["show", "showed", "shown", "montrer"],
+    ["shut", "shut", "shut", "fermer"],
+    ["sing", "sang", "sung", "chanter"],
+    ["sink", "sank/sunk", "sunk/sunken", "couler"],
+    ["sit", "sat", "sat", "s'asseoir"],
+    ["slay", "slew", "slain", "tuer"],
+    ["sleep", "slept", "slept", "dormir"],
+    ["slide", "slid", "slid", "glisser"],
+    ["slit", "slit", "slit", "fendre"],
+    ["smell", "smelt", "smelt", "sentir"],
+    ["sow", "sowed", "sown/sowed", "semer"],
+    ["speak", "spoke", "spoken", "parler"],
+    ["speed", "sped", "sped", "aller vite"],
+    ["spell", "spelt", "spelt", "épeler/orthographier"],
+    ["spend", "spent", "spent", "dépenser/passer du temps"],
+    ["spill", "spilt/spilled", "spilt/spilled", "renverser"],
+    ["spin", "spun", "spun", "tourner/faire tourner"],
+    ["spit", "spat/spit", "spat/spit", "cracher"],
+    ["split", "split", "split", "fendre"],
+    ["spoil", "spoilt", "spoilt", "gâcher/gâter"],
+    ["spread", "spread", "spread", "répandre"],
+    ["spring", "sprang", "sprung", "surgir/jaillir/bondir"],
+    ["stand", "stood", "stood", "être debout"],
+    ["steal", "stole", "stolen", "voler/dérober"],
+    ["stick", "stuck", "stuck", "coller"],
+    ["sting", "stung", "stung", "piquer"],
+    ["stink", "stank", "stunk", "puer"],
+    ["strew", "strewed", "strewn/strewed", "éparpiller"],
+    ["strike", "struck", "stricken/struck", "frapper"],
+    ["strive", "strove", "striven", "s'efforcer", ""],
+    ["swear", "swore", "sworn", "jurer"],
+    ["sweat", "sweat/sweated", "sweat/sweated", "suer"],
+    ["sweep", "swept", "swept", "balayer"],
+    ["swell", "swelled/sweated", "swollen", "gonfler/enfler"],
+    ["swim", "swam", "swum", "nager"],
+    ["swing", "swung", "swung", "se balancer"],
+    ["take", "took", "taken", "prendre"],
+    ["teach", "taught", "taught", "enseigner"],
+    ["tear", "tore", "torn", "déchirer"],
+    ["tell", "told", "told", "dire/raconter"],
+    ["think", "thought", "thought", "penser"],
+    ["thrive", "throve/thrived", "thriven/thrived", "prospérer"],
+    ["throw threw", "thrown", "jeter"],
+    ["thrust", "thrust", "thrust", "enfoncer"],
+    ["typeset", "typeset", "typeset", "composer"],
+    ["undergo", "underwent", "undergone", "subir"],
+    ["understand", "understood", "understood", "comprendre"],
+    ["wake", "woke", "woken", "réveiller"],
+    ["weep", "wept", "wept", "pleurer"],
+    ["wet", "wet/wetted", "wet/wetted", "mouiller"],
+    ["win", "won", "won", "gagner"],
+    ["wind", "wound", "wound", "enrouler/remonter"],
+    ["withdraw", "withdrew", "withdrawn", "se retirer"],
+    ["wring", "wrung", "wrung", "tordre"],
+    ["write", "wrote", "written", "écrire"]
+];

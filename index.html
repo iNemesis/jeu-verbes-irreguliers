@@ -7,7 +7,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="apple-touch-icon" sizes="192x192" href="favicon.png">
   <link rel="icon" type="image/png" href="favicon.png" />
-  <title>Sterke Werkwoorden</title>
+  <title>Verbes irréguliers</title>
   <script src="ow.js"></script>
   <script>
   let ow;
@@ -27,10 +27,10 @@
       const ix = Math.floor(Math.random() * OwList.length);
       ow = OwList[ix];
       OwList.splice(ix, 1);
-      answerIx = Math.floor(Math.random() * 4);
+      answerIx = Math.floor(Math.random() * 3);
       wasIncorrectInput = false;
       ow.forEach((part, ix) => {
-          if (ix > 3) {
+          if (ix > 2) {
               document.querySelector('.meaning').innerHTML = part;
               return;
           }
@@ -44,9 +44,20 @@
       });
   }
   function onInput(e) {
-      if (!localStorage.submitWithReturn && e.target.value === ow[answerIx] ||
-          e.target.value.indexOf('?') >= 0) {
-          showCorrectAnswer();
+      var userAnswer = e.target.value;
+      var goodAnswer = ow[answerIx];
+      var isDoubleAnswer = goodAnswer.indexOf('/') !== -1;
+
+      var isGoodAnswer = userAnswer === goodAnswer;
+      if (isDoubleAnswer) {
+        var answers = goodAnswer.split("/");
+        isGoodAnswer = answers.indexOf(userAnswer) !== -1;
+      }
+
+      if (!localStorage.submitWithReturn && 
+        isGoodAnswer ||
+        e.target.value.indexOf('?') >= 0) {
+            showCorrectAnswer();
       }
   }
   function onKeyDown(e) {
@@ -226,27 +237,23 @@
     </div>
     <div class="row">
         <div class="item">
-            <label for="txt0">Infinitief</label>
+            <label for="txt0">Base verbale</label>
             <input type="text" id="txt0" autocomplete="off" autocapitalize="off" spellcheck="false" autocorrect="off" />
         </div>
         <div class="item">
-            <label for="txt0">Verleden tijd enkelvoud</label>
+            <label for="txt0">Prétérit</label>
             <input type="text" id="txt1" autocomplete="off" autocapitalize="off" spellcheck="false" autocorrect="off" />
         </div>
         <div class="item">
-            <label for="txt0">Verleden tijd meervoud</label>
+            <label for="txt0">Participe passé</label>
             <input type="text" id="txt2" autocomplete="off" autocapitalize="off" spellcheck="false" autocorrect="off" />
-        </div>
-        <div class="item">
-            <label for="txt0">Voltooid deelwoord</label>
-            <input type="text" id="txt3" autocomplete="off" autocapitalize="off" spellcheck="false" autocorrect="off" />
         </div>
     </div>
     <div class="meaning">
     </div>
     <div class="submit-with-return">⏎</div>
     <div class="footer">
-        Typ "?" om het antwoord te zien. ⟨⟩ met ♡ door Antelle.
+        Tapez "?" pour passer la question. () Conçu avec ❤️ par <a href="https://github.com/iNemesis" title="iNemesis on Github">iNemesis</a>. Fork de <a href="https://github.com/antelle" title="Antelle on Github">Antelle</a>.
     </div>
 </body>
 </html>
